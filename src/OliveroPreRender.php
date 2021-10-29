@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\olivero;
+namespace Drupal\myolivero;
 
 use Drupal\Core\Security\TrustedCallbackInterface;
 

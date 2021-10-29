@@ -5,7 +5,7 @@
  * Functions to support theming in the Olivero theme.
  */
 
-use Drupal\olivero\OliveroPreRender;
+use Drupal\myolivero\OliveroPreRender;
 use Drupal\Component\Utility\Html;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Template\Attribute;
