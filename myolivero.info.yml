@@ -1,25 +1,25 @@
 # This theme is marked as @internal. It is intended to evolve and change over
 # minor releases.
 # As the UI of Drupal improves between minor versions, the markup and assets in
-# the Olivero theme will change. The Olivero theme is not backwards compatible
-# If you wish to modify the output or assets of Olivero you can:
-# 1. Copy the whole of Olivero and rename it as your own theme. You will need to
-# manually manage your own updates if you want to stay up to date with Olivero's
+# the myolivero theme will change. The myolivero theme is not backwards compatible
+# If you wish to modify the output or assets of myolivero you can:
+# 1. Copy the whole of myolivero and rename it as your own theme. You will need to
+# manually manage your own updates if you want to stay up to date with myolivero's
 # bug fixes and feature support.
 #
-# 2. Sub-theme Olivero. This is only recommended if you want to make minor
-# tweaks and understand that Olivero could break your modifications as it
+# 2. Sub-theme myolivero. This is only recommended if you want to make minor
+# tweaks and understand that myolivero could break your modifications as it
 # changes.
-name: My Olivero
+name: My myolivero
 type: theme
 base theme: false
 description: 'A clean, accessible, and flexible Drupal front-end theme.'
-alt text: 'Screenshot of Olivero, Drupal front-end theme.'
+alt text: 'Screenshot of myolivero, Drupal front-end theme.'
 package: Custom
 version: VERSION
 experimental: false
 libraries:
-  - olivero/global-styling
+  - myolivero/global-styling
 regions:
   header: Header
   primary_menu: 'Primary menu'
@@ -46,36 +46,36 @@ libraries-override:
       component:
         misc/vertical-tabs.css: css/components/vertical-tabs.css
   media/oembed.formatter: false
-  layout_builder/twocol_section: olivero/layout_builder_twocol_section
-  layout_builder/threecol_section: olivero/layout_builder_threecol_section
-  layout_builder/fourcol_section: olivero/layout_builder_fourcol_section
+  layout_builder/twocol_section: myolivero/layout_builder_twocol_section
+  layout_builder/threecol_section: myolivero/layout_builder_threecol_section
+  layout_builder/fourcol_section: myolivero/layout_builder_fourcol_section
 libraries-extend:
   core/drupal.message:
-    - olivero/messages
+    - myolivero/messages
   core/drupal.collapse:
-    - olivero/details
+    - myolivero/details
   core/drupal.dialog.off_canvas:
-    - olivero/dialog.off_canvas
+    - myolivero/dialog.off_canvas
   core/drupal.progress:
-    - olivero/progress
+    - myolivero/progress
   core/drupal.dropbutton:
-    - olivero/dropbutton
+    - myolivero/dropbutton
   layout_discovery/onecol:
-    - olivero/layout_discovery_section
+    - myolivero/layout_discovery_section
   layout_discovery/twocol_bricks:
-    - olivero/layout_discovery_section
+    - myolivero/layout_discovery_section
   layout_discovery/twocol:
-    - olivero/layout_discovery_section
+    - myolivero/layout_discovery_section
   layout_discovery/threecol_25_50_25:
-    - olivero/layout_discovery_section
+    - myolivero/layout_discovery_section
   layout_discovery/threecol_33_34_33:
-    - olivero/layout_discovery_section
+    - myolivero/layout_discovery_section
   node/drupal.node.preview:
-    - olivero/drupal.node.preview
+    - myolivero/drupal.node.preview
   core/ckeditor:
-    - olivero/cke-dialog
+    - myolivero/cke-dialog
   content_moderation/content_moderation:
-    - olivero/content_moderation
+    - myolivero/content_moderation
 ckeditor_stylesheets:
   - css/base/fonts.css
   - css/base/base.css
